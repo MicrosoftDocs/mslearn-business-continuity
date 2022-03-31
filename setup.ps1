@@ -56,15 +56,3 @@ Stop-AzVM `
     -StayProvisioned `
     -Force;
 
-
-
-#### Remove this for deployment ####
-# Cleanup
-#Remove-AzResourceGroup -Name $resourceGroupName;
-
-
-# Disconnect
-#Disconnect-AzAccount;
-#### End remove this for deployment ####
-
-
